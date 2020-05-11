@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
 public class Task02 {
     static Integer[] returnIndexMethod(Integer[] array, int NumberSum) {
         Integer[] containsIndex = new Integer[2];
