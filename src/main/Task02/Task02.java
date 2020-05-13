@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public class Task02 {
-    static Integer[] returnIndexMethod(Integer[] array, int NumberSum) {
+    static Integer[] returnIndexMethod(Integer[] array, int numberSum) {
         Integer[] containsIndex = new Integer[2];
 
         List<Integer> list = new ArrayList<>();
@@ -15,7 +15,7 @@ public class Task02 {
         for (int i = 0; i < list.size(); i++) {
             int numberTwo;
             int numberOne = list.get(i);
-            numberTwo = NumberSum - numberOne;
+            numberTwo = numberSum - numberOne;
             if (list.contains(numberTwo)) {
                 containsIndex[0] = list.indexOf(numberOne);
                 containsIndex[1] = list.indexOf(numberTwo);
